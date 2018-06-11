@@ -4,20 +4,18 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.BatteryManager;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
 
 import com.fadi.batterywaring.utils.WeakHandler;
-// 电池状态
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+// 电池状态
 import static android.os.BatteryManager.EXTRA_STATUS;
 // 未知
 import static android.os.BatteryManager.BATTERY_STATUS_UNKNOWN;
