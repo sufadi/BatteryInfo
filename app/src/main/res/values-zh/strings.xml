@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">电池状态</string>
+
+    <string name="battery_status_titls">电池状态: </string>
+    <string name="battery_status_unknown">未知</string>
+    <string name="battery_status_charging">充电中</string>
+    <string name="battery_status_discharging">放电中</string>
+    <string name="battery_status_not_charging">未充电</string>
+    <string name="battery_status_full">电池满</string>
+
+    <string name="battery_health_titls">电池健康情况: </string>
+    <string name="battery_health_unknow">未知</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_overheat">过热</string>
+    <string name="battery_health_dead">没电</string>
+    <string name="battery_health_unspecified_failure">未知错误</string>
+    <string name="battery_health_over_voltage">过电压</string>
+    <string name="battery_health_cold">温度过低</string>
+
+    <string name="battery_plugged_titls">充电类型: </string>
+    <string name="battery_plugged_ac">充电器</string>
+    <string name="battery_plugged_usb">USB</string>
+    <string name="battery_plugged_any">其他</string>
+    <string name="battery_plugged_wireless">无线充电</string>
+
+    <string name="battery_current_level">当前电量: </string>
+    <string name="battery_max_level">电量最大值: </string>
+    <string name="battery_current_temperature">当前电池温度: </string>
+    <string name="battery_current_volt">当前电池电压: </string>
+    <string name="battery_technology_describing">电池技术描述: </string>
+
+    <string name="battery_current_charging_current">当前充电电流: </string>
+    <string name="battery_max_charging_current">最大充电电流: </string>
+
+    <string name="battery_current_charging_voltage">当前充电电压: </string>
+    <string name="battery_max_charging_voltage">最大充电电压: </string>
+    <string name="adb_shell_help">发送命令: adb shell dumpsys battery \n</string>
+</resources>
